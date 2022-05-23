@@ -1,12 +1,11 @@
-# Welcome to Jekyll!
-
 author: Andrés M. Pérez R.
 title: Musa Nocturna
 email: andresmanuel.p@protonmail.com
 description: >-
   Hermosa musa de inspiración en noches tranquilas, por una mezcla de pensamientos vagos y café
-twitter_username: andres_m_p_r
 github_username:  code-andres
+twitter_username: andres_m_p_r
+instagram_username: andres_m_p_r
 
 # Build settings
 theme: jekyll-theme-midnight
