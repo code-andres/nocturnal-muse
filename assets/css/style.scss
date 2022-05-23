@@ -6,6 +6,7 @@
 /* Text */
 * {
   font-family: 'Times New Roman', Times, serif !important;
+  user-select: none;
 }
 section {
   margin: 0px !important;
@@ -30,8 +31,7 @@ section {
   font-family: 'Lavishly Yours', cursive !important;
 }
 .text-title {
-  font-size: 50px;
-  line-height: 40px;
+  font-size: 30px;
   text-align: justify;
 }
 .text {

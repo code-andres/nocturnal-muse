@@ -15,12 +15,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# URL
-baseurl: "/"
-url: "/"
+# Page
+url: "https://code-andres.github.io/noctural-muse/"
 paginate: 1
 paginate_path: "/:num/"
-permalink: /blog
+
+# Permalink
 permalink: /:title/
 
 # google_analytics: <your-ga-id>

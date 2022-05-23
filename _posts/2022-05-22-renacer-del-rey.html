@@ -1,14 +1,16 @@
 ---
 layout: default
 date: 2022-05-22
-categories: cortos
+categories: Corto Medieval
 title: Renacer del Rey
 ---
 
+<!-- Título -->
 <div class="text-center text-title">
   {{page.title}}
 </div>
 
+<!-- Texto -->
 <div class="mt-4 text">
   — Tanto he querido ser épico —Susurro con ira— Tanto he querido ser perfecto, he querido el mundo para ti… Oh madre,
   perdóname —Lentamente me levanto en una rodilla, mientras mis dos manos se soportan de la espada, empapada de sangre,
@@ -52,4 +54,12 @@ title: Renacer del Rey
   <br>
   — Seré épico madre mía, seré perfecto y tomaré el mundo para ti… Oh madre —Levanto la espada que me ofrece mi padre— Y
   hasta que el nombre de nuestra casa sea respetado no descansaré, padre mío.
+</div>
+
+<!-- Categorías -->
+<div class="mt-4">
+  <b>Categorías:</b>
+  {% for category in page.categories %}
+    <span>{{ category[0] }}</span>
+  {% endfor %}
 </div>
