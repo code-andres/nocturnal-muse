@@ -3,6 +3,9 @@
 
 @import "{{ site.theme }}";
 
+* {
+  font-family: 'Times New Roman', Times, serif !important;
+}
 section {
   margin-top: 0px;
   #title {
@@ -19,7 +22,4 @@ section {
   font-size: 50px;
   line-height: 20px;
   font-family: 'Lavishly Yours', cursive !important;
-}
-.text {
-  font-family: 'Times New Roman', Times, serif;
 }
