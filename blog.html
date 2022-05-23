@@ -1,0 +1,17 @@
+---
+layout: default
+date: 2022-05-22
+categories: home welcome
+---
+
+<div class="big-letter">
+  Historias :
+</div>
+
+<ul class="mt-3">
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}" style="font-size: 20px;">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
