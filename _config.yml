@@ -2,7 +2,7 @@ author: Andrés M. Pérez R.
 title: Musa Nocturna
 email: andresmanuel.p@protonmail.com
 description: >-
-  Hermosa musa de inspiración en noches tranquilas, por una mezcla de pensamientos vagos y café
+  Blog personal de escritura por inspiración en las noches de pensamientos vagos y café
 github_username:  code-andres
 twitter_username: andres_m_p_r
 instagram_username: andres_m_p_r
@@ -15,13 +15,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# URL
 baseurl: "/"
 url: "/"
-permalink: /:title/
-markdown: kramdown
 paginate: 1
 paginate_path: "/:num/"
-date_format: "%b %d, %Y"
-show_downloads: false
+permalink: /blog
+permalink: /:title/
 
 # google_analytics: <your-ga-id>
