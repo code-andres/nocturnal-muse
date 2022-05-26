@@ -6,7 +6,6 @@
 /* Text */
 * {
   font-family: 'Times New Roman', Times, serif !important;
-  user-select: none;
 }
 section {
   margin: 0px !important;
@@ -22,12 +21,20 @@ section {
     }
   }
 }
+.no-wrap {
+  white-space: nowrap;
+}
 .cursive {
   font-family: 'Lavishly Yours', cursive !important;
 }
 .big-letter {
   font-size: 50px;
   line-height: 40px;
+  font-family: 'Lavishly Yours', cursive !important;
+}
+.mid-letter {
+  font-size: 30px;
+  line-height: 20px;
   font-family: 'Lavishly Yours', cursive !important;
 }
 .text-title {

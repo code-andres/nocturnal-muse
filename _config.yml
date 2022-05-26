@@ -1,3 +1,4 @@
+# Details
 author: Andrés M. Pérez R.
 title: Musa Nocturna
 email: andresmanuel.p@protonmail.com
@@ -15,12 +16,42 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Page
-url: "https://code-andres.github.io/noctural-muse/"
-paginate: 1
-paginate_path: "/:num/"
+# URL
+baseurl: "/nocturnal-muse"
+permalink: /:title
 
-# Permalink
-permalink: /:title/
+# Page
+paginate: 1
+paginate_path: "/:num"
+
+# Categories
+collections:
+  category:
+    output: true
+    
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
+sorted-cat:
+  -
+    name: Arte
+    tag: arte
+  -
+    name: Corto
+    tag: corto
+  - 
+    name: Medieval
+    tag: Medieval
+  -
+    name: Motivación
+    tag: motivacion
+  -
+    name: Vida
+    tag: vida
 
 # google_analytics: <your-ga-id>

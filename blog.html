@@ -4,17 +4,18 @@ date: 2022-05-22
 categories: Blog
 ---
 
-
-<div class="d-flex justify-content-betwee">
+<div class="d-flex flex-wrap justify-content-betwee">
   <!-- Categorías -->
   <div class="col">
     <div class="text-title">
       Categorías:
     </div>
     <ul class="mt-2">
-      {% for category in site.categories %}
+      {% for category in site.sorted-cat %}
         <li>
-          <a href="" style="font-size: 20px;">{{ category[0] }}</a>
+          <a href="{{ site.baseurl }}/categoria/{{ category.tag }}" style="font-size: 20px;">
+            {{ category.name }}
+          </a>
         </li>
       {% endfor %}
     </ul>
@@ -27,7 +28,11 @@ categories: Blog
     <ul class="mt-2">
       {% for post in site.posts %}
         <li>
-          <a href="{{ post.url }}" style="font-size: 20px;">{{ post.title }}</a>
+          <a href="{{ site.baseurl }}/{{ post.url }}" style="font-size: 20px;">
+            <span style="font-size: 14px">{{ post.date | date: "%b %d, %Y" }}</span>
+            -
+            {{ post.title }}
+          </a>
         </li>
       {% endfor %}
     </ul>
