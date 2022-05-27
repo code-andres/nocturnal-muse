@@ -1,0 +1,13 @@
+{% if page.cover_landscape == 1 %}
+  <div class="w-100">
+    <div class="w-100 position-relative">
+      <img src="{{ site.baseurl }}/assets/images/cover/{{ page.cover }}" class="d-block w-100 post-cover">
+      <small class="position-absolute end-0 bottom-0 d-block text-end" style="padding: 0px 5px 5px 0px">
+        Crédito de imagen: <a href="{{ page.cover_credit_link }}">{{ page.cover_credit_author }}</a>
+      </small>
+    </div>
+    <div class="mt-1 text-center text-title">
+      {{page.title}}
+    </div>
+  </div>
+{% endif %}
